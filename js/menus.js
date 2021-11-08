@@ -265,15 +265,9 @@ var menus = {
 			},
 			description: "Displays information about this application."
 			// description: "Displays program information, version number, and copyright."
-		},
-		 {
-			item: "Notepad And Other Apps Are From: 98.js",
-			action: function () {  // TODO
-			window.open("https://98.js.org");
-			description: "From: 98.js.org"	
+		
 		},
             
-}
         {
 			item: "Minesweeper",
 			action: function () {  // TODO
