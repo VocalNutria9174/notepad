@@ -267,6 +267,7 @@ var menus = {
 			// description: "Displays program information, version number, and copyright."
 		
 		},
+		],
             "&Other Apps": [
 		{
 			item: "Minesweeper",
