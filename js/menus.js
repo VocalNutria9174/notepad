@@ -273,13 +273,22 @@ var menus = {
 			item: "Minesweeper",
 			action: function () {
 				// TODO: dialog
-				window.open("https://VocalNutria9174.github.io/minesweeper");
+				window.open("https://VocalNutria9174.Github.io/minesweeper");
 			},
 			description: "Displays information about this application."
 			// description: "Displays program information, version number, and copyright."
 		
 		},
-	],
+	{
+			item: "Paint",
+			action: function () {
+				// TODO: dialog
+				window.open("https://VocalNutria9174.Github.io/paint");
+			},
+			description: "Displays information about this application."
+			// description: "Displays program information, version number, and copyright."
+		},
+	    ],
 };
 
 var go_outside_frame = false;
