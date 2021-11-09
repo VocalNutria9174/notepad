@@ -267,14 +267,17 @@ var menus = {
 			// description: "Displays program information, version number, and copyright."
 		
 		},
-            
-        {
+            "&Other Apps": [
+		{
 			item: "Minesweeper",
-			action: function () {  // TODO
-			window.open("https://vocalnutria9174.github.io/minesweeper");
+			action: function () {
+				// TODO: dialog
+				window.open("https://VocalNutria9174.github.io/minesweeper");
+			},
+			description: "Displays information about this application."
+			// description: "Displays program information, version number, and copyright."
+		
 		},
-            description: "Displays information about this application."
-}
 	],
 };
 
